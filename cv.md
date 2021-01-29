@@ -55,6 +55,7 @@ Development tools:
 **Education**
 ------------------------
 Programming in Python courses at the Nizhny Novgorod Institute of Information Technologie (September - November 2020)
+
 National Research University Higher School of Economics, Economics department, Bachelor’s degree in Econimics (2016—2020)
 
 
