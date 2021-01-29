@@ -4,22 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<style>
-    .gray-background {
-        border: 4px double black; 
-        padding: 10px; 
-    }
-  </style>
- 
-
-<body class="gray-background">
-      
+    <link rel="stylesheet" href="style.css"> 
+    
     <style>
         body {
-            border: black;
+            
+            border: 4px double black; 
+            padding: 10px; 
             margin-left: auto;
             margin-right: auto;
             width: 50em;
@@ -27,7 +18,7 @@
           }
         
         header {
-            background-color: #343432;
+            background-color: #9b9176;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -55,6 +46,7 @@
             
 
         }  
+    
         li {
             font-size: 1em;
             font-family: 'Courier New', Courier, monospace;
@@ -66,96 +58,115 @@
         img {
             border-radius: 100%; 
             box-shadow: 0 0 7px #666; 
-            margin: 10px 0 ;
+            margin-bottom: 20px;
         }
-    </style>
-    
 
-<div>
+        footer {
+            margin-top: 30px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            
+            
+        }
+
+    </style>
+</head>
+    
+<body>
     <header>
         <h1>Curriculum Vitae</h1>
+        <img src="https://www.tiltingtowardwindmills.com/wp-content/uploads/2018/11/Sure-Seems-Like-Monday-256x256.jpg" alt="profile_picture">
+
     </header>
+
+    <main>
+        <article>
+            <section>
+                <h2>name</h2>
+                <hr>
+                <p>Irina Zhyurkevich</p> 
+            </section>
     
-    <img src="https://www.tiltingtowardwindmills.com/wp-content/uploads/2018/11/Sure-Seems-Like-Monday-256x256.jpg" align = "right">
-    
-    <section>
-            <h2>
-                name
-            </h2>
-            <hr>
-            <p>Irina Zhyurkevich</p> 
-    </section>
+            <section>
+                <h2>contacts</h2>
+                <hr>
+                <p>ivzhyurkevich@gmail.com</p>
+            </section>
             
-    <section>
-        <h2>
-            contacts
-        </h2>
-        <hr>
-        <p>ivzhyurkevich@gmail.com</p>
-    </section>
-    
-    <section>
-        <h2>brief personal information</h2>
-        <hr>
-        Personal qualities:
-            <ul>
-                <li>Attention to detail</li> 
-                <li>Quick learning ability and love of learning</li>
-                <li>Good time and task management</li> 
-                <li>Flexibility</li> 
-                <li>Good communication skills</li> 
-            </ul>
-    
-            Currently have no relevant work experience, however my goal right now is to advance in IT, especially in the field of front-end development.</p>
-    </section>
-    
-    <section>
-        <h2>skills</h2>
-        <hr>
-        Programming languages:
-            <ul>
-                <li>HTML</li> 
-                <li>CSS</li>
-                <li>JavaScript</li> 
-                <li>SQL</li> 
-                <li>Python</li> 
-            </ul>
-        Version control systems:
-            <ul>
-                <li>GitHub</li>
-            </ul>
-        Development tools:
-        <ul>
-            <li>Microsoft Visual Studio</li>
-            <li>Microsoft SQL Server</li>
-            <li>PyCharm</li>
-        </ul>
-    </section>
-    
-    <section>
-        <h2>code examples</h2>
-        <hr>
-    </section>
-    
-    <section>
-        <h2>work experience</h2>
-        <hr>
-    </section>
-    
-    <section>
-        <h2>education</h2>
-        <hr>
-        <ul>
-            <li>Programming in Python courses at the Nizhny Novgorod Institute of Information Technologie (September - November 2020)</li>
-            <li>National Research University Higher School of Economics, Economics department, Bachelor’s degree in Econimics (2016—2020)</li>
-        </ul>
-    </section>
-    
-    <section>
-        <hr>
-        <h2>english language level</h2>
-    </section>
-    B2 (Upper-Intermediate)
-</div>      
+            <section>
+                <h2>brief personal information</h2>
+                <hr>
+                Personal qualities:
+                    <ul>
+                        <li>Attention to detail</li> 
+                        <li>Quick learning ability and love of learning</li>
+                        <li>Good time and task management</li> 
+                        <li>Flexibility</li> 
+                        <li>Good communication skills</li> 
+                    </ul>
+                    <p>Currently have no relevant work experience, however my goal right now is to advance in IT, especially in the field of front-end development.<p>
+            </section>
+            
+            <section>
+                <h2>skills</h2>
+                <hr>
+                Programming languages:
+                    <ul>
+                        <li>HTML</li> 
+                        <li>CSS</li>
+                        <li>JavaScript</li> 
+                        <li>SQL</li> 
+                        <li>Python</li> 
+                    </ul>
+
+                Version control systems:
+                    <ul>
+                        <li>GitHub</li>
+                    </ul>
+
+                Development tools:
+                <ul>
+                    <li>Microsoft Visual Studio</li>
+                    <li>Microsoft SQL Server</li>
+                    <li>PyCharm</li>
+                </ul>
+            </section>
+            
+            <section>
+                <h2>code examples</h2>
+                <hr>
+            </section>
+            
+            <section>
+                <h2>work experience</h2>
+                <hr>
+            </section>
+            
+            <section>
+                <h2>education</h2>
+                <hr>
+                <ul>
+                    <li>Programming in Python courses at the Nizhny Novgorod Institute of Information Technologie (September - November 2020)</li>
+                    <li>National Research University Higher School of Economics, Economics department, Bachelor’s degree in Econimics (2016—2020)</li>
+                </ul>
+            </section>
+            
+            <section>
+                <hr>
+                <h2>english language level</h2>
+                
+            </section>
+                B2 (Upper-Intermediate)
+        </article>
+        
+    </main>
+
+    <footer>
+        <a href="#!" class="footer_link">ВКонтакте</a>
+        <a href="#!" class="footer_link">Instagram</a>
+        <a href="#!" class="footer_link">Telegram</a>
+        <a href="#!" class="footer_link">LinkedIn</a>           
+    </footer>
 </body>
 </html>
