@@ -46,9 +46,9 @@ countBits = n => n.toString(2).split('0').join('').length;
 ===================
 Currently have no relevant work experience.
 Here are examples of my stydying projects:
-* [Лендинг](https://irene-lab80.github.io/travel/) (HTLM, CSS)
+* [Лендинг:](https://irene-lab80.github.io/travel/) (HTLM, CSS)
 * [Браузерная игра крестики-нолики:](https://irene-lab80.github.io/tic-tac-toe/) (JS)
-* [Аналог приложения Momentum](https://momentum-psi.vercel.app/) (React, Redux)
+* [Аналог приложения Momentum:](https://momentum-psi.vercel.app/) (React, Redux)
 
 
 **Education**
