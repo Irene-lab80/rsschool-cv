@@ -1,0 +1,58 @@
+/* CSS HEX */
+:root {
+  --dark-l: #1E2129;
+  --dark-m: #3E4555;
+  --dark-s: #8E95A5;
+  --dark-xs: #818382;
+  --light: #F1F3F4;
+  --accent: #D32535;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: var(--dark-l);
+  color: var(--dark-xs);
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header {
+  background: var(--dark-m);
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-link {
+  padding: 0 20px;
+  line-height: 70px;
+  text-decoration: none;
+  color: var(--accent);
+}
