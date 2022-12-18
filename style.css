@@ -69,14 +69,15 @@ body {
 }
 
 /* MAIN */
-.main-grid {
-  display: grid;
-  grid-template-columns: 30% 70%;
-  column-gap: 40px;
+.main {
+  padding: 20px;
 }
 
-.section {
-  padding: 0 20px;
+.main-grid {
+  display: grid;
+  grid-template-columns: 25% 70%;
+  row-gap: 40px;
+  column-gap: 40px;
 }
 
 .name-section {
