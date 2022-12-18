@@ -30,9 +30,13 @@ body {
   line-height: 140%;
 }
 
+a {
+  text-decoration: none;
+}
+
 .container {
   max-width: 1440px;
-  margin: 20px auto;
+  margin: 0 auto;
 }
 
 /* NAVIGATION */
@@ -60,12 +64,13 @@ body {
 .nav-link {
   padding: 0 20px;
   text-decoration: none;
-  color: var(--accent);
+  /* color: var(--accent); */
+  color: var(--light);
   transition: color .5s;
 }
 
 .nav-link:hover {
-  color: red;
+  color: var(--accent);
 }
 
 /* MAIN */
@@ -117,6 +122,7 @@ body {
 
 .contacts-list>li>a:hover {
   color: var(--accent);
+  opacity: 0.6;
 }
 
 .contacts-item,
@@ -140,4 +146,53 @@ body {
 
 .projects-item a:hover {
   color: var(--accent);
+  opacity: 0.6;
+}
+
+/* FOOTER */
+.footer {
+  padding: 20px;
+}
+
+.footer__flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__github a {
+  color: #FEFEFE;
+}
+
+.footer__logo a img {
+  max-height: 50px;
+}
+
+.footer__logo {
+  opacity: 80%;
+  transition: .3s;
+}
+
+.footer__logo:hover {
+  opacity: 100%;
+}
+
+a:hover {
+  color: var(--accent);
+}
+
+.footer__socials a svg {
+  height: 30px;
+  width: 30px;
+  margin-right: 8px;
+  margin-left: 8px;
+}
+
+.footer__socials a svg:hover path {
+  fill: var(--accent);
+  opacity: .6;
+}
+
+.footer__socials a svg path {
+  transition: .3s;
 }
