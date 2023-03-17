@@ -24,8 +24,8 @@ body {
   min-height: 100vh;
   margin: 0;
   padding: 0;
-  background-color: var(--dark-l);
-  color: var(--dark-s);
+  background-color: var(--light);
+  color: var(---dark-l);
   font-family: 'Montserrat', sans-serif;
   line-height: 140%;
 }
@@ -64,7 +64,6 @@ a {
 .nav-link {
   padding: 0 20px;
   text-decoration: none;
-  /* color: var(--accent); */
   color: var(--light);
   transition: color .5s;
 }
@@ -84,6 +83,13 @@ a {
   row-gap: 40px;
   column-gap: 40px;
 }
+
+@media screen and (max-width: 940px) {
+  .main-grid {
+    grid-template-columns: 100%;
+  }
+}
+
 
 .name-section {
   display: flex;
@@ -115,7 +121,7 @@ a {
 }
 
 .contacts-list>li>a {
-  color: var(--dark-s);
+  color: var(--dark-l);
   font-weight: 600;
   transition: color .5s;
 }
@@ -139,9 +145,10 @@ a {
 }
 
 .projects-item a {
-  color: var(--dark-s);
+  color: var(--dark-l);
   font-weight: 600;
   transition: color .5s;
+  border-bottom: 1px soled var(--dark);
 }
 
 .projects-item a:hover {
@@ -161,7 +168,7 @@ a {
 }
 
 .footer__github a {
-  color: #FEFEFE;
+  color: var(--light);
 }
 
 .footer__logo a img {
