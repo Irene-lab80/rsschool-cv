@@ -1,0 +1,198 @@
+/* CSS HEX */
+:root {
+  --dark-l: #1E2129;
+  --dark-m: #3E4555;
+  --dark-s: #8E95A5;
+  --dark-xs: #818382;
+  --light: #F1F3F4;
+  --accent: #D32535;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: var(--dark-l);
+  color: var(--dark-s);
+  font-family: 'Montserrat', sans-serif;
+  line-height: 140%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* NAVIGATION */
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header,
+.footer {
+  background: var(--dark-m);
+  padding: 20px 0;
+}
+
+.nav-list,
+.skills-list,
+.courses-list,
+.projects-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-link {
+  padding: 0 20px;
+  text-decoration: none;
+  /* color: var(--accent); */
+  color: var(--light);
+  transition: color .5s;
+}
+
+.nav-link:hover {
+  color: var(--accent);
+}
+
+/* MAIN */
+.main {
+  padding: 20px;
+}
+
+.main-grid {
+  display: grid;
+  grid-template-columns: 25% 70%;
+  row-gap: 40px;
+  column-gap: 40px;
+}
+
+.name-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.name-section p {
+  margin: 0;
+}
+
+.job-title {
+  text-transform: uppercase;
+}
+
+.avatar {
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  max-width: 200px;
+  max-height: 200px;
+  padding: 20px;
+}
+
+.contacts-list {
+  padding: 0;
+  margin: 0;
+}
+
+.contacts-list>li>a {
+  color: var(--dark-s);
+  font-weight: 600;
+  transition: color .5s;
+}
+
+.contacts-list>li>a:hover {
+  color: var(--accent);
+  opacity: 0.6;
+}
+
+.contacts-item,
+.skills-item,
+.courses-item,
+.projects-item {
+  list-style: none;
+  padding: 5px 0;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+}
+
+.projects-item a {
+  color: var(--dark-s);
+  font-weight: 600;
+  transition: color .5s;
+}
+
+.projects-item a:hover {
+  color: var(--accent);
+  opacity: 0.6;
+}
+
+/* FOOTER */
+.footer {
+  padding: 20px;
+}
+
+.footer__flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__github a {
+  color: #FEFEFE;
+}
+
+.footer__logo a img {
+  max-height: 50px;
+}
+
+.footer__logo {
+  opacity: 80%;
+  transition: .3s;
+}
+
+.footer__logo:hover {
+  opacity: 100%;
+}
+
+a:hover {
+  color: var(--accent);
+}
+
+.footer__socials a svg {
+  height: 30px;
+  width: 30px;
+  margin-right: 8px;
+  margin-left: 8px;
+}
+
+.footer__socials a svg:hover path {
+  fill: var(--accent);
+  opacity: .6;
+}
+
+.footer__socials a svg path {
+  transition: .3s;
+}
